@@ -1,0 +1,172 @@
+body{
+    background-color: #C73F17;
+}
+#banner{
+    background-image: url('../images/titleT.png');
+    background-repeat: no-repeat;
+    background-size: 780px 100px;
+    width: 780px;
+    height: 100px;
+    margin: 0px auto 0 auto;
+    padding: 0;
+}
+#back{
+    background-image: url('../images/boxT.png');
+    background-size: 680px 570px;
+    background-repeat: no-repeat;
+    border: solid 1px #C73F17;
+    width: 680px;
+    height:570px;
+    margin: 0 auto 0 auto;
+    padding:0;
+}
+#wrapper{
+    width: 570px;
+    height: 400px;
+    margin: 75px auto 0px auto;
+}
+#menu{
+    font-weight: bold;
+    width: 578px;
+    height: 29px;
+    margin: 10px auto;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline;
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    border-bottom: black 2px solid;
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 138px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+#tabs{
+    position: relative;
+    top: -20px;
+}
+input{
+    display: block;
+    padding: 0;
+    margin:0;
+}
+#signout{
+    float: right;
+    margin: 30px 10px;
+}
+.centerbutton{
+    width: 135px;
+    padding: 2px;
+    margin: 5px auto;
+}
+.tabWrap{
+    width: 567px;
+    height: 428px;
+    border: solid black 2px;
+    //border-top: none;
+    padding: 0 0 0 0;
+    margin: 50px 0 0 0 ;
+}
+#signupTab{
+    display: inline;
+    width: 566px;
+    height: 450px;
+    padding: 0;
+}
+.signupMain{
+    width: 150px;
+    height: 150px;
+    border: solid green 1px;
+    margin: 60px auto 0 auto;
+    background-color: #EE8833;
+}
+#loginTab{
+    width: 566px;
+    height: 430px;
+    display: inline;
+}
+#todoTab{
+    width: 566px;
+    height: 450px;
+    display: inline;
+}
+#todoMain{
+    border: black solid 1px;
+    overflow: scroll;
+    width: 400px;
+    height: 350px;
+    margin: 45px 0 10px 70px;
+    background-color: #EE8833;
+}
+th{
+    border-bottom: black solid 1px;
+}
+#tabledesc{
+    width: 321px;
+}
+#listitem{
+    width: 300px;
+    display: inline;
+    border-top: none;
+}
+#todoslist li{
+    border: none;
+    border-bottom: black solid 1px;
+    padding: 2px 0 2px 5px;
+    width: 394px;
+    //height:70px;
+    background-color: #EE8833;
+}
+#todoslist li p{
+    display: inline-block;
+    text-align: justify;
+    font-weight: normal;
+    float: left;
+    //height: 65px;
+    width: 310px;
+    //border-right: black solid 2px;
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+.comp{
+    //border: black solid 1px;
+    margin: 2px;
+    height: 50px;
+    width: 65px;
+    float: right;
+}
+.check{
+    float:right;
+    margin: 25px 30px 0 0;
+}
+#createTab{
+    width: 566px;
+    height: 450px;
+//    border: black solid 2px;
+    display: inline;
+}
+#createMain{
+    //border: solid green 1px;
+    width: 450px;
+    height: 250px;
+    margin: 60px auto;
+}
+textarea{
+    width: 444px;
+    height: 200px;
+    background-color: #EE8833;
+}

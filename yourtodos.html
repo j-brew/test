@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Your : ToDos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src='js/jquery-1.11.1.min.js'></script>
+        <script src='js/todo.client.js'></script>
+        <script src='js/yourtodos.js'></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+    </head>
+    <body>
+        <div id="banner">
+        </div>
+        <div id="back">
+            <div id="wrapper">
+                <div id="menu">
+                    <ul id="tabs">
+                        <li id="tab1"><a href="#todoTab">TO DOs</a></li>
+                        <li id="tab2"><a href="#createTab">create TO DO</a></li>
+                    </ul>
+
+                    <div id="createTab">
+                        <div class="tabWrap">
+                            <div id="createMain">
+                                <textarea id="writetodo" rows="10" name="kf" placeholder="type here and press create button"></textarea>
+                                <input id="create" class="centerbutton" type="button" name="Create" value="CREATE">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="todoTab">
+                        <div class="tabWrap">
+ 
+                            <input id="signout" type="button" name="SignOut" value="SIGN OUT">
+                  
+                            <div id="todoMain">
+                                <table>
+                                    <tr>
+                                        <th id="tabledesc">description : </th>
+                                        <th>complete</th>
+                                    </tr>
+                                </table>
+                                <ul id="todoslist">
+                                    <li>
+                                        <div class="listitem">
+                                            <p>no todo lists</p>
+                                            <div class="comp">
+                                                <input id="1" class="check" type="checkbox">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
